@@ -5,6 +5,9 @@ const nextConfig = {
   },
   images: {
     domains: ["m.media-amazon.com"]
+  },
+  env: {
+    firebase_api_key: process.env.FIREBASE_API_KEY
   }
 }
 

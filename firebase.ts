@@ -2,7 +2,7 @@ import { getApp, getApps, initializeApp } from "firebase/app"
 import { getFirestore } from "firebase/firestore"
 
 const config = {
-    apiKey: "AIzaSyAdUewz25Jb85SWm00jFbcOFRsbGqYWhXk",
+    apiKey: process.env.firebase_api_key,
     authDomain: "web-scraper-8371c.firebaseapp.com",
     projectId: "web-scraper-8371c",
     storageBucket: "web-scraper-8371c.appspot.com",
